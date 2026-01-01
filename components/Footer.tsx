@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-8 lg:mb-12">
             <div className="sm:col-span-2 lg:col-span-2 space-y-4 lg:space-y-6">
               <Link href="/" className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
-                <div className="relative h-10 w-10 sm:h-12 sm:w-12">
+                <div className="relative h-30 w-30 sm:h-60 sm:w-60">
                   <Image
                     src="/logo.jpeg" // Ensure your logo is in the public folder
                     alt="Intellink Nippon Logo"
@@ -19,9 +19,6 @@ const Footer = () => {
                     priority // Ensures the logo loads immediately for SEO and UX
                   />
                 </div>
-                <span className="font-heading text-xl sm:text-2xl font-bold text-[#1e293b] tracking-tight">
-                  Intellink Nippon
-                </span>
               </Link>
               <p className="text-muted-foreground text-base sm:text-lg leading-relaxed max-w-md">
                 Connecting businesses across borders with expertise, intelligence, and trusted partnerships.
